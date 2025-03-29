@@ -25,7 +25,7 @@ public class IgnitingEffect {
             ItemStack weaponStack = event.getUsedItemStack();
             if (!weaponStack.isEmpty() && weaponStack.getItem() instanceof IModularItem item) {
                 int ignitingLevel = item.getEffectLevel(weaponStack, ignitingEffect);
-                event.getAttacker().setSecondsOnFire(ignitingLevel);
+                event.getTarget().setSecondsOnFire(ignitingLevel);
             }
         }
     }
