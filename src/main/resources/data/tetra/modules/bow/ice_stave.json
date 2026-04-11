@@ -34,21 +34,26 @@
             },
             "models": [
                 {
+                    "type": "tetra:filtered_grid_texture",
+                    "filter": "undrawn",
                     "location": "tetracelium:item/module/bow/stave/ice/default",
                     "tint": "bfffffff"
                 },
                 {
-                    "type": "draw_0",
+                    "type": "tetra:filtered_grid_texture",
+                    "filter": "draw_0",
                     "location": "tetracelium:item/module/bow/stave/ice/0_default",
                     "tint": "bfffffff"
                 },
                 {
-                    "type": "draw_1",
+                    "type": "tetra:filtered_grid_texture",
+                    "filter": "draw_1",
                     "location": "tetracelium:item/module/bow/stave/ice/1_default",
                     "tint": "bfffffff"
                 },
                 {
-                    "type": "draw_2",
+                    "type": "tetra:filtered_grid_texture",
+                    "filter": "draw_2",
                     "location": "tetracelium:item/module/bow/stave/ice/2_default",
                     "tint": "bfffffff"
                 }

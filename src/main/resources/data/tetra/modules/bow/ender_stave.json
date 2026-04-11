@@ -35,18 +35,23 @@
             },
             "models": [
                 {
+                    "type": "tetra:filtered_grid_texture",
+                    "filter": "undrawn",
                     "location": "tetracelium:item/module/bow/stave/ender/default"
                 },
                 {
-                    "type": "draw_0",
+                    "type": "tetra:filtered_grid_texture",
+                    "filter": "draw_0",
                     "location": "tetracelium:item/module/bow/stave/ender/0_default"
                 },
                 {
-                    "type": "draw_1",
+                    "type": "tetra:filtered_grid_texture",
+                    "filter": "draw_1",
                     "location": "tetracelium:item/module/bow/stave/ender/1_default"
                 },
                 {
-                    "type": "draw_2",
+                    "type": "tetra:filtered_grid_texture",
+                    "filter": "draw_2",
                     "location": "tetracelium:item/module/bow/stave/ender/2_default"
                 }
             ]
