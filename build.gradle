@@ -101,7 +101,7 @@ repositories {
 
 dependencies {
     minecraft "net.neoforged:forge:${minecraft_version}-${forge_version}"
-    implementation fg.deobf("se.mickelus.tetra:Mickelus_Tetra_6.12.0:${tetra_version}")
+    implementation fg.deobf("se.mickelus.tetra:tetra:${tetra_version}")
     implementation fg.deobf("se.mickelus.mutil:mutil:${mutil_version}")
 
     runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}")
@@ -136,7 +136,7 @@ tasks.named('processResources', ProcessResources).configure {
             tetra_version         : tetra_version, tetra_version_range: tetra_version_range,
             farmersdelight_version: farmersdelight_version, farmersdelight_version_range: farmersdelight_version_range,
             naturesaura_version   : naturesaura_version, naturesaura_version_range: naturesaura_version_range,
-            soul_fire_d_version: soul_fire_d_version, soul_fire_d_version_range: soul_fire_d_version_range,
+            soul_fire_d_version   : soul_fire_d_version, soul_fire_d_version_range: soul_fire_d_version_range,
             loader_version_range  : loader_version_range,
             mod_id                : mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
             mod_authors           : mod_authors, mod_description: mod_description,
